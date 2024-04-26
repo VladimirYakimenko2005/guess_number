@@ -7,7 +7,7 @@ def guess_number():
     while user_number != number:
         user_number = int(input('Введите целое число от 1 до 100: '))
         if user_number == number:
-            print('Отличная интуиция! Вы угадали число :)')
+            print('Отличная интуиция! Вы угадали число :D')
         elif user_number > number:
             print('Ваше число больше того, что загадано')
         else:
